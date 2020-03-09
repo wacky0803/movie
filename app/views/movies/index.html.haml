@@ -1,0 +1,80 @@
+.body
+  .header
+    .title
+      .movie_icon
+        %i.fas.fa-video
+      .name
+        ="Movie.com"
+    .form
+      
+    .btns
+      .btn
+        ="ログイン"
+      .btn
+        ="新規登録"
+
+
+  .menu_bar
+    .menu
+      ="一覧"
+    .menu
+      ="ランキング"
+    .menu
+      ="掲示板"
+
+  .main
+    .movies
+      ="映画一覧"
+      .movie
+        .image
+          = image_tag  src="/assets/test_image.jpg", size:"250x350"
+        .title
+          ="BIO HAZARD"
+          .genre
+            ="ジャンル"
+            .genre_type
+              ="ホラー、アクション"
+          .reviews
+            ="最新レビュー"
+            .review
+              ="面白い"
+            .other_review
+              %i.fas.fa-comment-dots
+              ='他のレビューを見る'
+          .good_btn
+            %i.fas.fa-thumbs-up
+            .good_count
+              ='2'
+      .movie
+        .image
+          = image_tag  src="/assets/test_image.jpg", size:"250x350"
+        .title
+          ="BIO HAZARD"
+          .genre
+            ="ジャンル"
+            .genre_type
+              ="ホラー、アクション"
+          .reviews
+            ="最新レビュー"
+            .review
+              ="面白い"
+            .other_review
+              %i.fas.fa-comment-dots
+              ='他のレビューを見る'
+          .good_btn
+            %i.fas.fa-thumbs-up
+            .good_count
+              ='2'
+      
+    .mypage
+      .mypageName
+        ="マイページ"
+      .myicon
+        = image_tag  src="/assets/test_image.jpg",size:"250x250"
+        .myname
+          = "wacky0803"
+
+  .review_form
+    =""
+
+
